@@ -1,0 +1,21 @@
+Source: fonts-opensans
+Section: fonts
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: http://opensans.com
+Vcs-Git: https://github.com/semplice/fonts-opensans.git
+Vcs-Browser: https://github.com/semplice/fonts-opensans
+
+Package: fonts-opensans
+Architecture: all
+Depends: ${misc:Depends}
+Pre-Depends: dpkg (>= 1.15.6~)
+Multi-Arch: foreign
+Description: clean and modern sans-serif typeface family font
+ Open Sans is a clean and modern sans-serif typeface designed by
+ Steve Matteson and commissioned by Google.
+ .
+ It is especially designed for legibility across print, web, and
+ mobile interfaces. 
